@@ -4,7 +4,8 @@ module.exports = async function (context, req) {
         WarehouseID: req.body.WarehouseID,
         ShippingPO: req.body.ShippingPO,
         ShipmentID: req.body.ShipmentID,
-        BoxesRcvd: req.body.BoxesRcvd
+        BoxesRcvd: req.body.BoxesRcvd,
+        ShipperID:req.body.ShipperID
       };
       console.log(req.body)
     try{
